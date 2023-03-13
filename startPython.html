@@ -21,14 +21,13 @@
 
       <div id="center" class="jumbotron p-3 p-md-5 text-white rounded bg-dark" style="background-color: white !important; border: 4px double black;">
           <div class="col-md-12 px-0">
-            <h1 class="display-4 font-italic" align="center" style="color: black;">Основы Python</h1>
-            <p class="lead my-3" align="center" style="color: black;">На данном пробном сайте вы можете ознакомится с основами Python</p>
+            <h1 class="display-4 font-italic" align="center" style="color: black;">Цены</h1>
+            <p class="lead my-3" align="center" style="color: black;">На данном пробном сайте вы можете узнать за свою будущую работу</p>
             <p class="lead mb-0" align="center" style="color: black;"><a href="https://www.python.org" class="text-black font-weight-bold">Ссылка на Python</a></p>
           </div>
         </div>
       </div>
-      <div class="container-fluid" style="margin-top: 10px; margin-bottom: 10px;">
-          <p align="center">
+      <div class="container-fluid" style="margin-top: 10px; margin-bottom: 10px;">       <p align="center">
               
               <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample_1" aria-expanded="false" aria-controls="collapseExample_1">
                 Нажмите чтобы посмотреть разбор основ Python
@@ -249,53 +248,7 @@ print(x)
 
   <div class="container-fluid" style="margin-top: 10px; margin-bottom: 10px;">
           <p align="center">
-              
-              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample_4" aria-expanded="false" aria-controls="collapseExample_4">
-                Нажмите чтобы посмотреть разбор темы <br>
-                "Повторение повторяющихся действий"<br>
-                            и разбор задания 9.46
-              </button>
-            </p>
-            <div class="collapse" id="collapseExample_4" style="width: 100%;">
-              <div class="card card-body" style="width: 100%;">
-                  <div class="card">
-                      <div class="card-header" align="center" style="font-size: 24px;">
-                        <b>Разбор темы "Повторение повторяющихся действий"<br>
-                            и разбор задания 9.46</b>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title" align="center" style="margin-bottom: 10px;">Разбор темы "Повторение повторяющихся действий"<br>
-                            и разбор задания 9.46</h5>
-                          <pre style="margin-bottom: 0; width: auto;">
-# Повторение повторяющихся действий
-
-for i in range(2, 10):              # внешний цикл
-    for j in range(1, 10):          # внутренний цикл
-        print(i, "*", j, "=", i*j)  # тело цикла
-
-
-for i in range(1, 10):              # внешний цикл
-    for j in range(1, 10):          # внутренний цикл
-        print(1, end = " ")         # тело цикла
-    print()
-
-
-"""9.46*. Составить программу нахождения цифрового корня натурального числа. 
-Цифровой корень данного числа получается 
-следующим образом. Если сложить все цифры этого числа, затем все 
-цифры найденной суммы и  повторять этот процесс, то 
-в результате будет получено однозначное число (цифра), которое 
-и  называется цифровым корнем данного числа"""
-
-x = int(input())
-while x > 10:       # внешний цикл (предназначен для работы пока число не станет однозначным)
-    sum = 0
-    while x > 0:    # внутренний цикл (ищет сумму цифр цисла)
-        a = x % 10
-        sum += a
-        x //= 10
-    x = sum
-print(x)
+                 
 </pre>
                       </div>
                     </div>
