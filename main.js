@@ -17,7 +17,7 @@ const start = () => {
 		console.log(loadedData);
 	
 		// populate the HTML table with the data
-		const table = document.getElementsByTagName('table')[1];
+		const table = document.getElementsByTagName('table')[0];
 		
 		// add column headers
 		const columnHeaders = document.createElement('tr');
